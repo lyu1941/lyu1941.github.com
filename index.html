@@ -1,0 +1,26 @@
+---
+layout: default
+title: 临沂大学IT素养提升计划
+---
+
+{% assign pages_list = site.pages %}
+{% assign group = 'lecture' %}
+  {% for node in pages_list %}
+    {% if node.title != null %}
+      {% if group == null or group == node.group %}
+        <div class="col col-lg-4">
+          <div class="lecturebox">
+            <div class="header"></div>
+            <div class="icon"></div>
+            <div class="body">
+              讲座的简单介绍，时间，地点<br>
+              如果已经完成，就显示6链接<br>
+              <a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% assign pages_list = nil %}
+{% assign group = nil %}

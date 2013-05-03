@@ -1,0 +1,18 @@
+title : 临沂大学IT素养提升计划
+tagline: Site Tagline
+
+# don't forget to separately set Google Analytics and Facebook Comments
+# alternately, use Tumblr to post
+# Dependencies
+markdown:     rdiscount
+pygments:     true
+
+# Permalinks
+permalink:    pretty
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "notes.txt"]
+auto: true
+
+# Server
+destination:  ./_sites
+url:          http://lyu1941.dev:9000
+server_port:  9000

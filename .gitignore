@@ -5,6 +5,7 @@ pkg/
 *.swp
 *~
 _site/
+_sites/
 .bundle/
 .DS_Store
 bbin/

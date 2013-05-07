@@ -34,6 +34,11 @@
   {% else %}
     <li><a href="/tutorials/">教程</a></li>
   {% endif %}
+  {% if page.url == '/about/calendar/' %}
+    <li class="active"><a href="/about/calendar/">日程安排</a></li>
+  {% else %}
+    <li><a href="/about/calendar/">日程安排</a></li>
+  {% endif %}
   <li><a href="#">讨论组</a></li>
   <li><a href="#">活动赞助商</a></li>
   <li><a href="#">给予反馈</a></li>

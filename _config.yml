@@ -10,7 +10,7 @@ pygments:     true
 # Permalinks
 permalink:    pretty
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "notes.txt"]
-auto: true
+# auto: true
 
 # Server
 destination:  ./_sites
